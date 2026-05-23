@@ -1,8 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <h1>Home Page</h1>
+        <Link to="/about">
+        <button>Go To About Page</button>
+        </Link>
+
+    </div>
   )
 }
 
